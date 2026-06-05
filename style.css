@@ -17,7 +17,6 @@
 }
 
 body {
-    font-family: Georgia, serif;
     background-color: #fdf8f2;
     color: #2c2c2c;
 }
@@ -39,7 +38,17 @@ body {
 }
 
 .logo-icon {
-    font-size: 2em;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .logo h1 {
@@ -61,11 +70,6 @@ body {
     padding: 8px 20px;             /* spatiu interior buton */
     border: 2px solid transparent; /* border invizibil la inceput */
     border-radius: 4px;
-}
-
-.nav-link:hover {
-    border: 2px solid #fff;        /* border apare la hover */
-    background-color: #922b21;
 }
 
 .nav-link.activ {
@@ -124,20 +128,10 @@ body {
     font-size: 1em;
 }
 
-.btn:hover {
-    background-color: #922b21;
-    border-color: #922b21;
-}
-
 .btn-secundar {
     background-color: transparent;
     color: #c0392b;
     border: 2px solid #c0392b;
-}
-
-.btn-secundar:hover {
-    background-color: #c0392b;
-    color: #fff;
 }
 
 /* === SECTIUNEA AVANTAJE (carduri) === */
@@ -169,9 +163,17 @@ body {
 }
 
 .card-icon {
-    font-size: 2.5em;
-    display: block;
-    margin-bottom: 14px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .card h3 {
@@ -282,20 +284,6 @@ body {
     font-size: 1.1em;
 }
 
-.eticheta {
-    display: inline-block;
-    background-color: #f39c12;
-    color: #fff;
-    padding: 2px 10px;
-    border-radius: 12px;
-    font-size: 0.75em;
-    margin-left: 8px;
-}
-
-.eticheta.picant {
-    background-color: #c0392b;
-}
-
 /* === CONTACT === */
 .contact-sectiune {
     display: flex;
@@ -336,49 +324,6 @@ body {
     color: #444;
 }
 
-/* === FORMULAR === */
-.formular-box {
-    flex: 1;
-    min-width: 300px;
-    background-color: #fff;
-    padding: 30px;
-    border: 1px solid #e0d5c8;
-    border-radius: 8px;
-}
-
-.formular-box h3 {
-    font-size: 1.3em;
-    margin-bottom: 24px;
-    color: #c0392b;
-}
-
-.camp {
-    margin-bottom: 18px;           /* spatiu intre campuri */
-}
-
-.camp label {
-    display: block;
-    margin-bottom: 6px;
-    font-weight: bold;
-    font-size: 0.95em;
-}
-
-.camp input,
-.camp textarea {
-    width: 100%;
-    padding: 10px 14px;            /* padding in input */
-    border: 1px solid #ccc;        /* border input */
-    border-radius: 4px;
-    font-size: 1em;
-    font-family: Georgia, serif;
-}
-
-.camp input:focus,
-.camp textarea:focus {
-    border: 2px solid #c0392b;    /* border rosu cand e activ */
-    outline: none;
-}
-
 /* === HARTA PLACEHOLDER === */
 .harta-sectiune {
     padding: 40px 80px;
@@ -392,12 +337,8 @@ body {
 }
 
 .harta-placeholder {
-    background-color: #e8e0d5;
-    border: 2px dashed #c0b090;    /* border punctat */
-    border-radius: 8px;
-    padding: 60px 20px;
-    color: #555;
     font-size: 1.2em;
+    font-weight: bold;
 }
 
 /* === FOOTER === */
