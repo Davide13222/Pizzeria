@@ -1,4 +1,4 @@
-# 🍕 Pizzeria La Forno — Website
+# 🍕 Pizzerie — Website
 
 Proiect web realizat în cadrul cursului de **HTML & CSS** la Universitatea Transilvania din Brașov (UNITBV).
 
